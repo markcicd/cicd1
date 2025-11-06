@@ -13,6 +13,6 @@ terraform {
 }
 
 resource "google_compute_network" "example_vpc" {
-  name                    = "markvpc"
+  name                    = "markvpc1"
   auto_create_subnetworks = true 
 }
